@@ -2,6 +2,12 @@
 
 Use [CSJS](https://github.com/rtsao/csjs) with [duet](https://github.com/colingourlay/duet) by passing CSS Modules-enabled stylesheets from the worker thread to the main thread which are injected into the document's head.
 
+```
+$ npm install duet-csjs
+```
+
+## Usage
+
 ```javascript
 var duet    = require('duet');
 var channel = require('duet-csjs/channel');
